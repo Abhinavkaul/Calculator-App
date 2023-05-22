@@ -30,10 +30,10 @@ function App() {
   };
 
   const keyenter = (event) =>{
-    if(event.code==='Enter' || event.code==='='){
+    if(event.code==='Enter' || event.key==='='){
       eql();
     }
-    if(event.code === 'C' || event.key==='c'){
+    if(event.key === 'C' || event.key==='c'){
       clr()
     }
   };
