@@ -30,7 +30,7 @@ function App() {
   };
 
   const keyenter = (event) =>{
-    if(event.code==='Enter'){
+    if(event.code==='Enter' || event.code==='='){
       eql();
     }
     if(event.code === 'C' || event.key==='c'){
